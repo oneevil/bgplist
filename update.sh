@@ -32,8 +32,10 @@ update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/tiktok/ipv4_
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/oracle/ipv4_merged.txt list/oracle.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/roblox/ipv4_merged.txt list/roblox.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/youtube/ipv4_merged.txt list/youtube.lst
+update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/avito/ipv4_merged.txt list/avito.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/ozonru/ipv4_merged.txt list/ozon.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/rugov/ipv4_merged.txt list/rugov.lst
+update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/vkontakte/ipv4_merged.txt list/vkontakte.lst
 
 cat list/akamai.lst | sed 's_.*_route & reject;_' > bird/akamai.txt
 cat list/amazon.lst | sed 's_.*_route & reject;_' > bird/amazon.txt
@@ -49,5 +51,7 @@ cat list/torrents.lst | sed 's_.*_route & reject;_' > bird/torrents.txt
 cat list/oracle.lst | sed 's_.*_route & reject;_' > bird/oracle.txt
 cat list/roblox.lst | sed 's_.*_route & reject;_' > bird/roblox.txt
 cat list/youtube.lst | sed 's_.*_route & reject;_' > bird/youtube.txt
+cat list/avito.lst | sed 's_.*_route & reject;_' > bird/ru/avito.txt
 cat list/ozon.lst | sed 's_.*_route & reject;_' > bird/ru/ozon.txt
 cat list/rugov.lst | sed 's_.*_route & reject;_' > bird/ru/rugov.txt
+cat list/vkontakte.lst | sed 's_.*_route & reject;_' > bird/ru/vkontakte.txt
