@@ -1,0 +1,5 @@
+route 104.21.69.116/32 reject;
+route 117.55.203.183/32 reject;
+route 172.67.207.253/32 reject;
+route 217.60.37.71/32 reject;
+route 5.61.53.100/32 reject;

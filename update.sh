@@ -44,6 +44,7 @@ cat list/akamai.lst | sed 's_.*_route & reject;_' > bird/akamai.txt
 cat list/amazon.lst | sed 's_.*_route & reject;_' > bird/amazon.txt
 cat list/amazoncloudfront.lst | sed 's_.*_route & reject;_' > bird/amazoncloudfront.txt
 cat list/cloudflare.lst | sed 's_.*_route & reject;_' > bird/cloudflare.txt
+cat list/cubred.lst | sed 's_.*_route & reject;_' > bird/cubred.txt
 cat list/google.lst | sed 's_.*_route & reject;_' > bird/google.txt
 cat list/chatgpt.lst | sed 's_.*_route & reject;_' > bird/chatgpt.txt
 cat list/kinopub.lst | sed 's_.*_route & reject;_' > bird/kinopub.txt
