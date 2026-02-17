@@ -29,7 +29,7 @@ update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/cloudflare/i
 update "https://iplist.opencck.org/?format=text&data=cidr4&site=discord.com&site=discord.gg&site=discord.media" list/discord.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/google/ipv4_merged.txt list/google.lst
 update "https://iplist.opencck.org/?format=text&data=cidr4&site=kino.pub" list/kinopub.lst
-update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/meta/ipv4_merged.txt list/meta.lst
+update "https://iplist.opencck.org/?format=text&data=cidr4&site=messenger.com&site=whatsapp.com&site=facebook.com&site=instagram.com" list/meta.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/oracle/ipv4_merged.txt list/oracle.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/ozonru/ipv4_merged.txt list/ozon.lst
 update "https://iplist.opencck.org/?format=text&data=cidr4&site=hdrezka.ag" list/rezka.lst
