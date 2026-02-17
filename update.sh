@@ -30,6 +30,7 @@ update "https://iplist.opencck.org/?format=text&data=cidr4&site=discord.com&site
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/google/ipv4_merged.txt list/google.lst
 update "https://iplist.opencck.org/?format=text&data=cidr4&site=kino.pub" list/kinopub.lst
 update "https://iplist.opencck.org/?format=text&data=cidr4&site=messenger.com&site=whatsapp.com&site=facebook.com&site=instagram.com" list/meta.lst
+update "https://iplist.opencck.org/?format=text&data=cidr4&site=deezer.com&site=spotify.com" list/music.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/oracle/ipv4_merged.txt list/oracle.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/ozonru/ipv4_merged.txt list/ozon.lst
 update "https://iplist.opencck.org/?format=text&data=cidr4&site=hdrezka.ag" list/rezka.lst
@@ -53,6 +54,7 @@ cat list/discord.lst | sed 's_.*_route & reject;_' > bird/discord.txt
 cat list/google.lst | sed 's_.*_route & reject;_' > bird/google.txt
 cat list/kinopub.lst | sed 's_.*_route & reject;_' > bird/kinopub.txt
 cat list/meta.lst | sed 's_.*_route & reject;_' > bird/meta.txt
+cat list/music.lst | sed 's_.*_route & reject;_' > bird/music.txt
 cat list/oracle.lst | sed 's_.*_route & reject;_' > bird/oracle.txt
 cat list/rezka.lst | sed 's_.*_route & reject;_' > bird/rezka.txt
 cat list/roblox.lst | sed 's_.*_route & reject;_' > bird/roblox.txt
