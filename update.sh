@@ -26,11 +26,13 @@ update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/amazoncloudf
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/cloudflare/ipv4_merged.txt list/cloudflare.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/google/ipv4_merged.txt list/google.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/chatgpt/ipv4_merged.txt list/chatgpt.lst
+update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/kinopub/ipv4_merged.txt list/kinopub.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/discord/ipv4_merged.txt list/discord.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/meta/ipv4_merged.txt list/meta.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/telegram/ipv4_merged.txt list/telegram.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/tiktok/ipv4_merged.txt list/tiktok.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/oracle/ipv4_merged.txt list/oracle.lst
+update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/rezka/ipv4_merged.txt list/rezka.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/youtube/ipv4_merged.txt list/youtube.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/avito/ipv4_merged.txt list/avito.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/ozonru/ipv4_merged.txt list/ozon.lst
@@ -44,6 +46,7 @@ cat list/amazoncloudfront.lst | sed 's_.*_route & reject;_' > bird/amazoncloudfr
 cat list/cloudflare.lst | sed 's_.*_route & reject;_' > bird/cloudflare.txt
 cat list/google.lst | sed 's_.*_route & reject;_' > bird/google.txt
 cat list/chatgpt.lst | sed 's_.*_route & reject;_' > bird/chatgpt.txt
+cat list/kinopub.lst | sed 's_.*_route & reject;_' > bird/kinopub.txt
 cat list/discord.lst | sed 's_.*_route & reject;_' > bird/discord.txt
 cat list/meta.lst | sed 's_.*_route & reject;_' > bird/meta.txt
 cat list/telegram.lst | sed 's_.*_route & reject;_' > bird/telegram.txt
@@ -51,6 +54,7 @@ cat list/themoviedb.lst | sed 's_.*_route & reject;_' > bird/themoviedb.txt
 cat list/tiktok.lst | sed 's_.*_route & reject;_' > bird/tiktok.txt
 cat list/torrents.lst | sed 's_.*_route & reject;_' > bird/torrents.txt
 cat list/oracle.lst | sed 's_.*_route & reject;_' > bird/oracle.txt
+cat list/rezka.lst | sed 's_.*_route & reject;_' > bird/rezka.txt
 cat list/roblox.lst | sed 's_.*_route & reject;_' > bird/roblox.txt
 cat list/youtube.lst | sed 's_.*_route & reject;_' > bird/youtube.txt
 cat list/avito.lst | sed 's_.*_route & reject;_' > bird/ru/avito.txt
