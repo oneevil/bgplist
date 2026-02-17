@@ -126,6 +126,7 @@ route 88.221.111.0/24 reject;
 route 88.221.120.0/22 reject;
 route 88.221.128.0/21 reject;
 route 88.221.192.0/21 reject;
+route 88.221.24.0/22 reject;
 route 88.221.83.0/24 reject;
 route 88.221.87.0/24 reject;
 route 88.221.88.0/24 reject;

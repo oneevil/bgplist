@@ -121,6 +121,7 @@ route 204.13.173.0/24 reject;
 route 204.236.128.0/17 reject;
 route 204.9.184.0/24 reject;
 route 205.201.62.0/24 reject;
+route 205.251.192.0/18 reject;
 route 208.184.0.0/15 reject;
 route 209.206.40.0/21 reject;
 route 209.85.128.0/17 reject;
