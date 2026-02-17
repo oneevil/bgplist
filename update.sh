@@ -23,7 +23,7 @@ update() {
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/akamai/ipv4_merged.txt list/akamai.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/amazon/ipv4_merged.txt list/amazon.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/amazoncloudfront/ipv4_merged.txt list/amazoncloudfront.lst
-update 'https://russia.iplist.opencck.org/?format=text&data=cidr4&site=avito.ru' list/avito.lst
+update "https://russia.iplist.opencck.org/?format=text&data=cidr4&site=avito.ru" list/avito.lst
 update "https://iplist.opencck.org/?format=text&data=cidr4&site=chatgpt.com" list/chatgpt.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/cloudflare/ipv4_merged.txt list/cloudflare.lst
 update "https://iplist.opencck.org/?format=text&data=cidr4&site=discord.com&site=discord.gg&site=discord.media" list/discord.lst

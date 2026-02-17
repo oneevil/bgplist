@@ -2,7 +2,7 @@ name: Update IP Lists
 
 on:
   schedule:
-    - cron: '30 0 * * 1' # 00:30 UTC Monday
+    - cron: '30 0 * * *' # 00:30 UTC
   workflow_dispatch:
 
 permissions:
