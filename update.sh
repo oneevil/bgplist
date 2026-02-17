@@ -22,6 +22,7 @@ update() {
 
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/akamai/ipv4_merged.txt list/akamai.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/amazon/ipv4_merged.txt list/amazon.lst
+update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/amazoncloudfront/ipv4_merged.txt list/amazoncloudfront.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/cloudflare/ipv4_merged.txt list/cloudflare.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/google/ipv4_merged.txt list/google.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/chatgpt/ipv4_merged.txt list/chatgpt.lst
@@ -39,6 +40,7 @@ update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/vkontakte/ip
 
 cat list/akamai.lst | sed 's_.*_route & reject;_' > bird/akamai.txt
 cat list/amazon.lst | sed 's_.*_route & reject;_' > bird/amazon.txt
+cat list/amazoncloudfront.lst | sed 's_.*_route & reject;_' > bird/amazoncloudfront.txt
 cat list/cloudflare.lst | sed 's_.*_route & reject;_' > bird/cloudflare.txt
 cat list/google.lst | sed 's_.*_route & reject;_' > bird/google.txt
 cat list/chatgpt.lst | sed 's_.*_route & reject;_' > bird/chatgpt.txt
