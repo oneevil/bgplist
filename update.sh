@@ -36,13 +36,10 @@ update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/ozonru/ipv4_
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/rezka/ipv4_merged.txt list/rezka.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/rugov/ipv4_merged.txt list/rugov.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/tiktok/ipv4_merged.txt list/tiktok.lst
-update "https://iplist.opencck.org/?format=text&data=cidr4&site=themoviedb.org" list/themoviedb.lst
-update "https://iplist.opencck.org/?format=text&data=cidr4&site=1337x.to&site=booktracker.org&site=filmitorrent.net&site=freetp.org&site=kinozal.me&site=newstudio.tv&site=nnmclub.to&site=rustorka.com&site=rutor.info&site=rutracker.org&site=thepiratebay.org&site=torrent.by" list/torrents.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/telegram/ipv4_merged.txt list/telegram.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/vkontakte/ipv4_merged.txt list/vkontakte.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/yandex/ipv4_merged.txt list/yandex.lst
 update https://raw.githubusercontent.com/you-oops-dev/ipranges/main/youtube/ipv4_merged.txt list/youtube.lst
-update "https://russia.iplist.opencck.org/?format=text&data=cidr4&site=wb.ru" list/wb.lst
 
 cat list/akamai.lst | sed 's_.*_route & reject;_' > bird/akamai.txt
 cat list/amazon.lst | sed 's_.*_route & reject;_' > bird/amazon.txt
@@ -58,9 +55,7 @@ cat list/spotify.lst | sed 's_.*_route & reject;_' > bird/spotify.txt
 cat list/oracle.lst | sed 's_.*_route & reject;_' > bird/oracle.txt
 cat list/rezka.lst | sed 's_.*_route & reject;_' > bird/rezka.txt
 cat list/telegram.lst | sed 's_.*_route & reject;_' > bird/telegram.txt
-cat list/themoviedb.lst | sed 's_.*_route & reject;_' > bird/themoviedb.txt
 cat list/tiktok.lst | sed 's_.*_route & reject;_' > bird/tiktok.txt
-cat list/torrents.lst | sed 's_.*_route & reject;_' > bird/torrents.txt
 cat list/avito.lst | sed 's_.*_route & reject;_' > bird/ru/avito.txt
 cat list/ozon.lst | sed 's_.*_route & reject;_' > bird/ru/ozon.txt
 cat list/rugov.lst | sed 's_.*_route & reject;_' > bird/ru/rugov.txt
@@ -68,4 +63,3 @@ cat list/start.lst | sed 's_.*_route & reject;_' > bird/ru/start.txt
 cat list/vkontakte.lst | sed 's_.*_route & reject;_' > bird/ru/vkontakte.txt
 cat list/yandex.lst | sed 's_.*_route & reject;_' > bird/ru/yandex.txt
 cat list/youtube.lst | sed 's_.*_route & reject;_' > bird/youtube.txt
-cat list/wb.lst | sed 's_.*_route & reject;_' > bird/ru/wb.txt
