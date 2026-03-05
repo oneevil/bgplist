@@ -59,6 +59,7 @@ route 18.244.0.0/15 reject;
 route 18.64.0.0/14 reject;
 route 18.68.0.0/16 reject;
 route 23.228.220.0/22 reject;
+route 23.228.244.0/24 reject;
 route 23.234.192.0/18 reject;
 route 23.91.0.0/19 reject;
 route 24.110.32.0/19 reject;
