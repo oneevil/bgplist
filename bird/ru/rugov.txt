@@ -907,6 +907,8 @@ route 109.62.192.0/19 reject;
 route 109.62.224.0/20 reject;
 route 109.62.240.0/21 reject;
 route 109.68.168.0/21 reject;
+route 130.49.182.0/23 reject;
+route 130.49.184.0/24 reject;
 route 130.49.212.0/24 reject;
 route 134.90.208.0/21 reject;
 route 146.185.238.0/24 reject;
