@@ -150,6 +150,7 @@ route 15.103.0.0/16 reject;
 route 15.128.0.0/16 reject;
 route 15.129.0.0/19 reject;
 route 15.129.32.0/21 reject;
+route 15.129.40.0/22 reject;
 route 15.134.0.0/15 reject;
 route 15.143.0.0/16 reject;
 route 15.145.0.0/22 reject;
