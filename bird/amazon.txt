@@ -651,6 +651,7 @@ route 44.192.0.0/10 reject;
 route 45.113.128.0/22 reject;
 route 45.33.160.0/21 reject;
 route 45.33.168.0/22 reject;
+route 45.33.172.0/24 reject;
 route 45.34.0.0/15 reject;
 route 45.57.128.0/18 reject;
 route 46.137.0.0/16 reject;
