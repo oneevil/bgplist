@@ -539,7 +539,7 @@ route 87.225.56.0/21 reject;
 route 87.225.64.0/21 reject;
 route 87.225.72.0/23 reject;
 route 87.225.74.0/24 reject;
-route 87.225.78.0/23 reject;
+route 87.225.76.0/22 reject;
 route 87.225.80.0/20 reject;
 route 87.225.96.0/22 reject;
 route 87.226.128.0/17 reject;
