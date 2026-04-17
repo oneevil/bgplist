@@ -514,6 +514,7 @@ route 23.228.220.0/22 reject;
 route 23.228.228.0/22 reject;
 route 23.228.244.0/24 reject;
 route 23.234.192.0/18 reject;
+route 23.238.128.0/17 reject;
 route 23.254.0.0/20 reject;
 route 23.254.120.0/21 reject;
 route 23.254.16.0/21 reject;
