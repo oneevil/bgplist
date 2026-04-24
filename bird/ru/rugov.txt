@@ -31,6 +31,7 @@ route 45.151.60.0/24 reject;
 route 45.153.74.0/23 reject;
 route 45.80.64.0/22 reject;
 route 45.84.3.0/24 reject;
+route 45.93.81.0/24 reject;
 route 46.150.224.0/20 reject;
 route 46.158.0.0/15 reject;
 route 46.172.160.0/19 reject;
