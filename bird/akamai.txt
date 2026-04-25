@@ -257,6 +257,7 @@ route 200.60.136.0/23 reject;
 route 200.60.190.0/24 reject;
 route 201.220.10.0/24 reject;
 route 202.12.75.0/24 reject;
+route 202.138.153.0/24 reject;
 route 202.138.164.0/22 reject;
 route 202.138.183.0/24 reject;
 route 202.171.237.0/24 reject;
