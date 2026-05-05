@@ -1123,6 +1123,7 @@ route 194.107.21.0/24 reject;
 route 194.146.240.0/22 reject;
 route 194.149.64.0/24 reject;
 route 194.149.70.0/23 reject;
+route 194.150.137.0/24 reject;
 route 194.150.140.0/24 reject;
 route 194.153.112.0/24 reject;
 route 194.190.0.0/18 reject;
