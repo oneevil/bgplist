@@ -207,7 +207,6 @@ route 173.205.76.0/23 reject;
 route 173.222.0.0/15 reject;
 route 173.230.128.0/19 reject;
 route 173.255.192.0/18 reject;
-route 176.58.105.192/32 reject;
 route 184.24.0.0/13 reject;
 route 184.50.0.0/15 reject;
 route 184.84.0.0/14 reject;
