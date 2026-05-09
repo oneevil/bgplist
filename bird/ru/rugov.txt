@@ -1305,7 +1305,6 @@ route 195.19.4.0/23 reject;
 route 195.19.6.0/24 reject;
 route 195.19.64.0/18 reject;
 route 195.19.9.0/24 reject;
-route 195.208.113.0/24 reject;
 route 195.208.114.0/23 reject;
 route 195.208.116.0/22 reject;
 route 195.208.160.0/21 reject;

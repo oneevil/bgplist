@@ -91,6 +91,7 @@ route 47.129.82.0/23 reject;
 route 47.129.84.0/24 reject;
 route 51.44.234.0/23 reject;
 route 51.44.236.0/22 reject;
+route 51.74.192.0/18 reject;
 route 52.124.128.0/17 reject;
 route 52.15.127.128/26 reject;
 route 52.199.127.192/26 reject;
