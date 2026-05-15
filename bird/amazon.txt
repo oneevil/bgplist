@@ -388,6 +388,7 @@ route 15.248.162.0/30 reject;
 route 15.248.162.4/31 reject;
 route 15.248.164.0/24 reject;
 route 15.248.168.0/21 reject;
+route 15.248.184.0/21 reject;
 route 15.248.32.0/21 reject;
 route 15.248.40.0/22 reject;
 route 15.248.48.0/20 reject;

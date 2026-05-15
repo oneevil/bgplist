@@ -659,6 +659,7 @@ route 54.89.0.112/32 reject;
 route 57.128.117.86/32 reject;
 route 57.141.0.0/20 reject;
 route 57.141.16.0/21 reject;
+route 57.141.24.0/23 reject;
 route 57.144.0.0/14 reject;
 route 58.143.201.17/32 reject;
 route 58.143.201.32/32 reject;
