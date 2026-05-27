@@ -153,6 +153,7 @@ route 77.34.136.0/22 reject;
 route 77.34.147.0/24 reject;
 route 77.34.150.0/23 reject;
 route 77.34.154.0/23 reject;
+route 77.34.157.0/24 reject;
 route 77.34.158.0/23 reject;
 route 77.34.160.0/19 reject;
 route 77.34.16.0/20 reject;

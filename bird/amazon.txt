@@ -681,7 +681,7 @@ route 51.0.112.0/21 reject;
 route 51.0.128.0/20 reject;
 route 51.0.16.0/21 reject;
 route 51.0.24.0/22 reject;
-route 51.0.250.0/31 reject;
+route 51.0.250.0/30 reject;
 route 51.0.251.0/24 reject;
 route 51.0.252.0/24 reject;
 route 51.0.28.0/24 reject;
