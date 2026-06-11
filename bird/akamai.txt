@@ -237,7 +237,6 @@ route 198.31.3.64/26 reject;
 route 198.47.116.0/24 reject;
 route 198.58.96.0/19 reject;
 route 198.74.48.0/20 reject;
-route 198.77.126.64/29 reject;
 route 198.87.182.0/25 reject;
 route 198.93.38.0/24 reject;
 route 199.101.28.0/22 reject;
