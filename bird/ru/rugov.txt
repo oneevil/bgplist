@@ -1042,6 +1042,7 @@ route 193.232.120.0/23 reject;
 route 193.232.12.0/22 reject;
 route 193.232.123.0/24 reject;
 route 193.232.138.0/24 reject;
+route 193.232.144.0/23 reject;
 route 193.232.147.0/24 reject;
 route 193.232.148.0/22 reject;
 route 193.232.152.0/23 reject;

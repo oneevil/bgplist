@@ -145,8 +145,6 @@ route 128.177.166.0/23 reject;
 route 128.177.91.160/27 reject;
 route 131.203.4.0/22 reject;
 route 139.144.0.0/16 reject;
-route 139.162.108.167/32 reject;
-route 139.162.74.224/32 reject;
 route 139.177.176.0/20 reject;
 route 139.177.192.0/20 reject;
 route 140.174.24.0/23 reject;
