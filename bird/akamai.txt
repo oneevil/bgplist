@@ -172,7 +172,6 @@ route 165.254.203.192/26 reject;
 route 165.254.206.0/23 reject;
 route 165.254.215.0/24 reject;
 route 165.254.23.0/25 reject;
-route 165.254.234.0/23 reject;
 route 165.254.237.128/25 reject;
 route 165.254.238.128/25 reject;
 route 165.254.245.0/25 reject;
