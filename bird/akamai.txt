@@ -259,6 +259,7 @@ route 202.74.45.0/24 reject;
 route 202.90.15.0/24 reject;
 route 202.90.8.0/22 reject;
 route 202.94.80.0/24 reject;
+route 203.144.1.0/24 reject;
 route 203.161.190.0/23 reject;
 route 203.198.20.0/24 reject;
 route 203.217.134.0/23 reject;
