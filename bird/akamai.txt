@@ -40,6 +40,7 @@ route 64.224.201.128/28 reject;
 route 64.25.220.160/28 reject;
 route 64.65.176.224/28 reject;
 route 64.86.206.0/24 reject;
+route 64.86.217.0/24 reject;
 route 64.89.224.0/20 reject;
 route 65.158.184.0/24 reject;
 route 65.183.176.0/27 reject;
