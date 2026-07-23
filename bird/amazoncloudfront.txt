@@ -1,3 +1,4 @@
+route 1.178.168.0/24 reject;
 route 3.10.17.128/25 reject;
 route 3.101.158.0/23 reject;
 route 3.107.43.128/25 reject;
