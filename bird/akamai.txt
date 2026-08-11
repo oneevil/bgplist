@@ -204,6 +204,7 @@ route 184.24.0.0/13 reject;
 route 184.50.0.0/15 reject;
 route 184.84.0.0/14 reject;
 route 185.225.250.0/23 reject;
+route 185.3.95.165/32 reject;
 route 185.89.20.0/22 reject;
 route 187.210.208.0/22 reject;
 route 189.247.167.0/24 reject;
