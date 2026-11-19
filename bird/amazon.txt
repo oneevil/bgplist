@@ -606,6 +606,7 @@ route 37.203.157.0/24 reject;
 route 40.138.216.0/22 reject;
 route 40.143.64.0/21 reject;
 route 40.163.0.0/22 reject;
+route 40.163.4.0/24 reject;
 route 40.164.0.0/14 reject;
 route 40.168.224.0/21 reject;
 route 40.168.255.0/24 reject;
