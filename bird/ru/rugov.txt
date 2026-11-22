@@ -1188,6 +1188,7 @@ route 194.85.17.0/24 reject;
 route 194.85.172.0/22 reject;
 route 194.85.178.0/23 reject;
 route 194.85.18.0/23 reject;
+route 194.85.180.0/23 reject;
 route 194.85.183.0/24 reject;
 route 194.85.184.0/24 reject;
 route 194.85.192.0/20 reject;
