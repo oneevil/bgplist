@@ -40,6 +40,7 @@ route 46.150.224.0/20 reject;
 route 46.158.0.0/15 reject;
 route 46.172.160.0/19 reject;
 route 46.183.80.0/21 reject;
+route 46.228.64.0/20 reject;
 route 46.235.160.0/21 reject;
 route 46.235.216.0/21 reject;
 route 46.237.0.0/19 reject;
